@@ -65,7 +65,7 @@ angular.module('ion-affix', ['ionic'])
       function applyTransform(element, transformString) {
         // do not apply the transformation if it is already applied
         if (element.transformString == transformString) {} else {
-          element.transformString] = transformString;
+          element.transformString = transformString;
       }
     }
 
